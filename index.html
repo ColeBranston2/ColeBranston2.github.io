@@ -1,0 +1,259 @@
+<head>
+    <link rel="stylesheet" href = "index.css">
+    <script src="https://kit.fontawesome.com/5694ef3c61.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="utf-8">
+    <title>Personal Site</title>
+    <link rel="shortcut icon" href="/Images/terminal-logo.png">
+</head>
+<body>
+    <div class = "page">
+
+        <div class="ScrollField"></div>
+
+        <div class="">
+            <div class="firstBox fixed">
+            </div>
+            <div class="scrollDIV fixed">
+                <h1>Scroll</h1>
+            </div>
+        </div>
+
+        <div class="body screen fixed hidden transparent"> 
+            <div class="backButtonDiv hidden">
+                <div class="backButton hidden" onclick="backSelect()">Back</div>
+            </div>
+            <div class="body screen row">
+                <div class="navButtons" onclick="menuSelect(1)">About</div>
+                    <div class="bodyText hidden">
+                        <h1>Cole Branston</h1>
+                        <div class="aboutInnerBody">
+                            <div class="aboutTextContainer">
+                                <p>
+                                    Hi, I'm Cole, a passionate student with a deep love for software and technology. 
+                                    I'm currently pursuing my education at Western University, where I'm immersed in the world of Engineering.
+                                    As a student, I'm constantly driven by a thirst for knowledge and a desire to tackle complex challenges head-on. 
+                                    My academic journey at Western University is not just about acquiring a degree; it's about gaining a comprehensive understanding of engineering principles and their real-world applications.
+                                </p>
+                            </div>
+                            <div class="imageContainer">
+                                <img class="personalImage" src="Images/colebranston_Image.jpg" height="250rem" width= "150rem">
+                            </div>
+                        </div>
+                        <h1>Hobbies & Interests</h1>
+                        <p>While I enjoy coding, I'm also interested in...</p>
+                        <div class="aboutInnerBody hobbies">
+                            <div class="imageContainer">
+                                <i class="fa-solid fa-gamepad fa-4x"></i>
+                                <p>Video Games</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-solid fa-basketball fa-4x"></i>
+                                <p>Sports</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-solid fa-palette fa-4x"></i>
+                                <p>Painting</p>
+                            </div>
+                        </div>
+                        <div class="aboutInnerBody hobbies">
+                            <div class="imageContainer">
+                                <i class="fa-solid fa-book fa-4x"></i>
+                                <p>Reading</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-solid fa-film fa-4x"></i>
+                                <p>Watching Movies</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-solid fa-bowl-food fa-4x"></i>
+                                <p>Baking</p>
+                            </div>
+                        </div>
+
+                    </div>
+                <div class="navButtons" onclick="menuSelect(2)">Skills</div>
+                    <div class="bodyText hidden">
+                        <h1>Experience</h1>
+                        <div class="experience">
+                            <div class="card">
+                                <div class="companyLogoDIV">
+                                    <img src="Images/SunLifeLogo.PNG" height="100rem" width="105rem">
+                                </div>
+                                <div class="cardText">
+                                    <div class="cardHeader">
+                                        <p class="titleName">Backend Developer</p>
+                                        <p class="companyName">Sun Life Canada</p> 
+                                    </div>
+                                    <div class="cardPoints">
+                                        <ol>
+                                            <li>Developed and deployed several Spring Boot APIs for data delivery using Jenkins, Kubernetes, and Docker.</li>
+                                            <li>Migrated APIs to Red Hat OpenShift, providing secure data flow between Kafka topics and MongoDB databases.</li>
+                                            <li>Collaborated using SCRUM methodology, Git version control, and Jira during production life cycles.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="companyLogoDIV">
+                                    <img src="Images/WCSLogo.PNG" height="100rem" width="105rem">
+                                </div>
+                                <div class="cardText">
+                                    <div class="cardHeader">
+                                        <p class="titleName">Software Developer</p>
+                                        <p class="companyName">Western Cyber Society</p> 
+                                    </div>
+                                    <div class="cardPoints">
+                                        <ol>
+                                            <li>Developed a dynamic freelancing website using React and Tailwind CSS</li>
+                                            <li>Integrated a payment platform using Stripe API to allow users to broker our services.</li>
+                                            <li>Connected the front-end to the back-end and database using AWS Cloudfront, RDS, EC2, and S3 microservices.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="companyLogoDIV">
+                                    <img src="Images/SlyFoxLogo.PNG" height="100rem" width="105rem">
+                                </div>
+                                <div class="cardText">
+                                    <div class="cardHeader">
+                                        <p class="titleName">Web Developer</p>
+                                        <p class="companyName">SlyFox Web Design & Marketing</p> 
+                                    </div>
+                                    <div class="cardPoints">
+                                        <ol>
+                                            <li>Built responsive websites using WordPress, Elementor, WooCommerce, and other various plugins.</li>
+                                            <li>Helped develop a local business’s website that led to an increase in traffic by approx. 1500 visits per year.</li>
+                                            <li>Communicated with the Project Manager and other developers to produce a deliverable product.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h1>Languages</h1>
+                        <div class="aboutInnerBody hobbies">
+                            <div class="imageContainer">
+                                <i class="fa-brands fa-html5 fa-4x"></i>
+                                <p>HTML5</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-brands fa-css3 fa-4x"></i>
+                                <p>CSS3</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-brands fa-js fa-4x"></i>
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="aboutInnerBody hobbies">
+                            <div class="imageContainer">
+                                <i class="fa-brands fa-java fa-4x"></i>
+                                <p>Java</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-brands fa-python fa-4x"></i>
+                                <p>Python</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fab fa-cuttlefish fa-4x"></i>
+                                <p>C</p>
+                            </div>
+                        </div>
+                        <h1>Tools & Frameworks</h1>
+                        <div class="aboutInnerBody hobbies">
+                            <div class="imageContainer">
+                                <i class="fa-brands fa-react fa-4x"></i>
+                                <p>React.js</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-brands fa-react fa-4x"></i>
+                                <p>Next.js</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-brands fa-node-js fa-4x"></i>
+                                <p>Node.js</p>
+                            </div>
+                        </div>
+                        <div class="aboutInnerBody hobbies">
+                            <div class="imageContainer">
+                                <i class="fa-brands fa-node-js fa-4x"></i>
+                                <p>Express.js</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-solid fa-power-off fa-4x"></i>
+                                <p>Spring Boot</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-solid fa-database fa-4x"></i>
+                                <p>PostgreSQL</p>
+                            </div>
+                        </div>
+                        <div class="aboutInnerBody hobbies">
+                            <div class="imageContainer">
+                                <i class="fa-brands fa-docker fa-4x"></i>
+                                <p>Docker</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-solid fa-dharmachakra fa-4x"></i>
+                                <p>Kubernetes</p>
+                            </div>
+                            <div class="imageContainer hobbies">
+                                <i class="fa-brands fa-git-alt fa-4x"></i>
+                                <p>GIT</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="body screen row">
+                <div class="navButtons" onclick="menuSelect(3)">Contact</div>
+                    <div class="bodyText hidden">
+                        <div id="contact">
+                            <div class="container">
+                                <div class="row">
+                                    <div>
+                                        <p><i id = paperplaneIcon class="fa-solid fa-paper-plane fa-2x"></i>colebranston@gmail.com</p>
+                                        <p><i id = phoneIcon class="fa-solid fa-phone fa-2x"></i>(519) 871-5615</p>
+                                    </div>
+                                    <div>
+                                        <form name='submit-to-google-sheet'>
+                                            <input type="text" name="Name" class="formField" placeholder="Your Name" required>
+                                            <input type="email" name="Email" class="formField" placeholder="Your Email" required>
+                                            <textarea name="Message" rows="6" class="formFieldText" placeholder="Your Message" required></textarea>
+                                            <button type="submit" class="submitButton" >Submit</button>
+                                        </form>
+                                        <span id="msg"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                <div class="navButtons" onclick="menuSelect(4)">Resume</div>
+                    <div class="bodyText hidden">
+                        <div class="resumeDIV">
+                            <img src="/Resume/resume.png" width="650rem" height="1000rem">
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzBVEYGlV01_bOdZIuEfAr9Avin5O7yguotZAWZAT6XLATD6Dm7c4O5jDJvIm5-scV3/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+      form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+              msg.innerHTML = ""
+          },5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))})
+  </script>
